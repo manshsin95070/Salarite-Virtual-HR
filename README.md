@@ -97,16 +97,17 @@ Configure your connection string in `backend/.env`.
 ## Demo Credentials (Authentication Placeholder)
 There is no explicit Auth implementation (login/signup) per requirements. All dashboards are directly accessible through standard navigation links on the home page for demonstration ease.
 
-## Live Demo Link Placeholder
-Live Application: [https://salarite-virtual-hr-frontend-aner.onrender.com/]
-Backend API Docs: [https://salarite-virtual-hr-1.onrender.com/docs]
-Backend API:  [https://salarite-virtual-hr-1.onrender.com/]
+## Live Demo
+
+- **Live Application:** https://salarite-virtual-hr-frontend-aner.onrender.com/
+- **Backend API:** https://salarite-virtual-hr-1.onrender.com/
+- **Backend API Docs:** https://salarite-virtual-hr-1.onrender.com/docs
 
 ## Final Demo Workflow
-1. Employer opens `http://localhost:3000/employer`.
+1. Employer opens `https://salarite-virtual-hr-frontend-aner.onrender.com/employer`.
 2. Employer creates and assigns a task.
 3. Task is saved in MySQL via FastAPI.
-4. Virtual HR opens `http://localhost:3000/virtual-hr`.
+4. Virtual HR opens `https://salarite-virtual-hr-frontend-aner.onrender.com/virtual-hr`.
 5. Virtual HR sees the assigned task.
 6. Virtual HR changes task status from "Pending" to "In Progress".
 7. Employer dashboard automatically shows the updated status.
