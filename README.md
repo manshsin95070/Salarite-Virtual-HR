@@ -98,8 +98,9 @@ Configure your connection string in `backend/.env`.
 There is no explicit Auth implementation (login/signup) per requirements. All dashboards are directly accessible through standard navigation links on the home page for demonstration ease.
 
 ## Live Demo Link Placeholder
-Live Application: [Coming Soon - Render / Railway URL]
-Backend API Docs: [Coming Soon - Render API URL /docs]
+Live Application: [https://salarite-virtual-hr-frontend-aner.onrender.com/]
+Backend API Docs: [https://salarite-virtual-hr-1.onrender.com/docs]
+Backend API:  [https://salarite-virtual-hr-1.onrender.com/]
 
 ## Final Demo Workflow
 1. Employer opens `http://localhost:3000/employer`.
